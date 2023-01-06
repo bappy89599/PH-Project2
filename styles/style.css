@@ -92,3 +92,8 @@
     border-bottom: 1px solid gray;
     margin-bottom: 30px;
 }
+
+/* our donate sector */
+.our-donate-container {
+    display: flex;
+}
