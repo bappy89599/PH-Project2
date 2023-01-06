@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: arial, 'Roboto Condensed', sans-serif;
+}
+
+.btn-primary {
+    background-color: #FF5733;
+    padding: 15px;
+    color: #fff;
+    font-size: 120%;
+    border: none;
+    border-radius: 5px;
+}
+
+.header {
+    background-image: url('../images/donation1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    text-align: center;
+}
+
+.header-container {
+    padding-top: 200px;
+}
+
+.header-title {
+    color: #fff;
+    font-size: 450%;
+    margin-bottom: 20px;
+}
+
+.header-description {
+    color: #fff;
+    font-size: 130%;
+    margin-bottom: 20px;
+}
