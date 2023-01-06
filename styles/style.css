@@ -15,6 +15,7 @@
     border-radius: 5px;
 }
 
+/* banner sector */
 .header {
     background-image: url('../images/donation1.jpg');
     background-repeat: no-repeat;
@@ -37,4 +38,57 @@
     color: #fff;
     font-size: 130%;
     margin-bottom: 20px;
+}
+
+/* donate today */
+
+.section {
+    margin-top: 100px;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 300%;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 130%;
+    color: rgb(145, 124, 124);
+    margin-bottom: 40px;
+
+}
+
+.section-container {
+    margin-bottom: 50px;
+}
+
+.cards-items {
+    display: inline-block;
+    height: 70px;
+    width: 120px;
+    border-radius: 10px;
+    background-color: beige;
+    margin-left: 10px;
+    color: rgb(118, 97, 97);
+    padding-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.cards-items:hover {
+
+    color: #FF5733;
+    background-color: #c9b8b4;
+}
+
+.amount-input {
+    height: 50px;
+    width: 960px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    color: gray;
+    border-bottom: 1px solid gray;
+    margin-bottom: 30px;
 }
