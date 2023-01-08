@@ -146,3 +146,20 @@
     line-height: 24px;
     text-align: justify;
 }
+
+/* blog section design */
+
+.blog-container {
+    display: flex;
+    margin-top: 100px;
+    gap: 100px;
+}
+
+.blog-sub-container {
+    margin-left: 100px;
+}
+
+.blog-img {
+    height: 360px;
+    width: 360px;
+}
