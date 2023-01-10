@@ -13,9 +13,11 @@
     background-color: #FF5733;
     padding: 15px;
     color: #fff;
-    font-size: 120%;
     border: none;
     border-radius: 5px;
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 20px;
 }
 
 /* banner sector */
@@ -100,6 +102,7 @@
 .our-donate-container {
     display: flex;
     margin-top: 100px;
+    justify-content: center;
 }
 
 .our-donate-subcontainer {
@@ -125,7 +128,6 @@
 .bg-color-last-child {
     background-color: #FFF4D6;
     margin-right: 100px;
-
 }
 
 .our-donate-img {
@@ -152,14 +154,33 @@
 .blog-container {
     display: flex;
     margin-top: 100px;
-    gap: 100px;
+    justify-content: center;
+    gap: 200px;
 }
 
 .blog-sub-container {
-    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.blog-title {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 46px;
+    margin-bottom: 25px;
+}
+
+.blog-description {
+    color: #707070;
+    font-family: 'Poppins';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    width: 480px;
+    height: 80px;
+    margin-bottom: 25px;
 }
 
 .blog-img {
-    height: 360px;
-    width: 360px;
+    height: 540px;
+    width: 540px;
+    border-radius: 5px;
 }
